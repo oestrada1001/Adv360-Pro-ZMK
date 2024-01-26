@@ -1,3 +1,9 @@
+macro_testing: macro_testing{
+compatible = "zmk,behavior-macro";
+label = "macro_testing";
+#binding-cells = <0>;
+bindings = <&kp A>;
+};
 macro_macro_spotlight: macro_macro_spotlight{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_spotlight";
