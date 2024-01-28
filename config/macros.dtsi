@@ -1,3 +1,9 @@
+macro_tmux_leader: macro_tmux_leader{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_leader";
+#binding-cells = <0>;
+bindings = <&kp RC(SPACE)>;
+};
 macro_spotlight: macro_spotlight{
 compatible = "zmk,behavior-macro";
 label = "macro_spotlight";
