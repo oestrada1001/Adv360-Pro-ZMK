@@ -70,22 +70,40 @@
 
         extra1 {
             display-name = "Red";
-            status = "reserved";
+            bindings = <
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans &trans       &trans &trans       &trans &trans &trans &trans &trans &trans
+                &trans &trans &trans &trans &trans       &trans &trans &trans       &trans &trans &trans       &trans &trans &trans &trans &trans &trans
+            >;
         };
 
         extra2 {
             display-name = "Purple";
-            status = "reserved";
+            bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                         &trans &trans &trans &trans &trans &trans       &trans &trans       &trans &trans &trans &trans &trans &trans
+                         &trans &trans &trans &trans &trans       &trans &trans &trans       &trans &trans &trans       &trans &trans &trans &trans &trans &trans >;
         };
 
         extra3 {
             display-name = "Cyan";
-            status = "reserved";
+            bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                         &trans &trans &trans &trans &trans &trans       &trans &trans       &trans &trans &trans &trans &trans &trans
+                         &trans &trans &trans &trans &trans       &trans &trans &trans       &trans &trans &trans       &trans &trans &trans &trans &trans &trans >;
         };
 
         extra4 {
             display-name = "Yellow";
-            status = "reserved";
+            bindings = < &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                         &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+                         &trans &trans &trans &trans &trans &trans       &trans &trans       &trans &trans &trans &trans &trans &trans
+                         &trans &trans &trans &trans &trans       &trans &trans &trans       &trans &trans &trans       &trans &trans &trans &trans &trans &trans >;
         };
     };
 };
