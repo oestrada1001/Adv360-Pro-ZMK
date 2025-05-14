@@ -71,11 +71,11 @@
         extra1 {
             display-name = "Red";
             bindings = <
-&trans      &trans                &trans                 &trans            &trans             &trans  &trans                                      &trans  &trans          &trans           &trans         &trans            &trans     &trans
-&trans      &kp GRAVE             &trans                 &trans            &trans             &trans  &trans                                      &trans  &trans          &trans           &trans         &kp MINUS         &kp EQUAL  &trans
-&trans      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp SEMI   &kp RSHIFT
-&kp LSHIFT  &trans                &trans                 &trans            &trans             &trans                  &trans      &trans                  &trans          &trans           &trans         &trans            &trans     &trans
-&trans      &trans                &trans                 &trans            &trans                     &trans  &trans  &trans      &trans  &trans  &trans                  &trans           &trans
+&trans      &trans                &trans                 &trans            &trans             &trans   &trans                                      &trans  &trans          &trans           &trans         &trans            &trans     &trans
+&trans      &kp GRAVE             &kp BSLH               &trans            &trans             &trans   &trans                                      &trans  &trans          &trans           &trans         &kp MINUS         &kp EQUAL  &trans
+&trans      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp SEMI   &trans
+&kp LSHIFT  &trans                &trans                 &trans            &trans             &trans                   &trans      &trans                  &trans          &trans           &kp COMMA      &kp PERIOD        &kp FSLH   &kp RSHIFT
+&trans      &trans                &trans                 &trans            &trans                      &trans  &trans  &trans      &trans  &trans  &trans                  &trans           &trans
             >;
         };
 
